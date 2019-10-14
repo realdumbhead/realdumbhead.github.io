@@ -1,0 +1,139 @@
+<!doctype html>
+<html>
+<head>
+    <title>Miaosen Zhang</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Resume page for Miaosen Zhang">
+    <meta name="author" content="Miaosen Zhang">
+    <meta name="keywords" content="data science, machine learning, ml, computer science">
+
+    <link rel="icon" href="imgs/favicon.ico" type="image/x-icon">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link href="style.css" rel="stylesheet" type="text/css">
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-149378344-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'UA-149378344-1');
+    </script>    
+</head>
+<body>
+    <div class="container container-main">
+        <div class="jumbotron text-center header">
+            <h1 class="header-text">Miaosen Zhang</h1>
+            <h6 class="header-text"><i>a data scientist</i></h6>
+        </div>
+
+        <ul class="nav nav-tabs bg-dark">
+            <li class="nav-item">
+                <a class="nav-link text-white active" data-toggle="tab" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-white" data-toggle="tab" href="#experience">Experience</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-white" data-toggle="tab" href="#mooc">MOOCs</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-white" data-toggle="tab" href="#contact">Contact</a>
+            </li>
+        </ul>
+
+        <div class="tab-content">
+            <div class="tab-pane container active" id="about"><br>
+                <div class="container">
+                    <div class="text-center">
+                        <div class="fa fa-github"></div>
+                        <a href="https://github.com/realdumbhead">Github</a><br>
+                        <div class="fa fa-kaggle">k</div>
+                        <a href="https://www.kaggle.com/dumbhead">Kaggle</a><br><br>
+                        <hr>
+                    </div>
+                    <h6>Objective</h6>
+                    <p>To obtain an intership in data science over the school year or the summer to apply my machine learning skills</p>
+                    <h6>Description</h6>
+                    <p>I loved fiddling with computers since I was young, and I learned to code 
+                        through online resources. I'm particularly interested in machine learning 
+                        as I have taken online courses in that area and participated in Kaggle 
+                        competitions.</p>
+                </div>
+            </div>
+            <div class="tab-pane container fade" id="experience"><br>
+                <div class="container black-links">
+                    <h3>Machine Learning Experience</h3><br>
+                    <h6><a href="https://github.com/realdumbhead/bitcoin-price-prediction-using-neural-networks">Bitcoin Price Prediction</a></h6>
+                    <ul>
+                        <li>Predicted future Bitcoin prices from past prices </li>
+                        <li>Neural network with Keras</li>
+                        <li>NN outperformed buy and hold strategy by 62% on test set</li>
+                            <ul>
+                                <li>Test set data from Mar. 2018 to Jan. 2019</li>
+                                <li>NN: 34% loss</li>
+                                <li>Buy and hold strategy: 60% loss</li>
+                                <img class="small-image" src="imgs/nn-performance.png">
+                            </ul>
+                    </ul>
+                    <h6><a href="https://github.com/realdumbhead/kaggle-competitions">MNIST Digit Recognition</a></h6>
+                    <ul>
+                        <li>Identified handwritten digits with 99% accuracy </li>
+                        <li>Convolutional neural network with Keras</li>
+                    </ul>
+                    <h6><a href="https://github.com/realdumbhead/kaggle-competitions">PUBG Placement Prediction</a></h6>
+                    <ul>
+                        <li>Predicted final placement from player stats and player rankings</li>
+                        <li>XGBoost</li>
+                    </ul>
+                    <h6><a href="https://github.com/realdumbhead/kaggle-competitions">Titanic Survivor Prediction</a></h6>
+                    <ul>
+                        <li>Predicted who survived from the Titanic shipwreck</li>
+                        <li>Logistic regression</li>
+                    </ul>
+                    <br><h3>Other Experience</h3>
+                    <h6><a href="https://2019.pactf.com/team/173">PA CTF</a></h6>
+                    <ul>
+                        <li>Computer security competition CTF</li>
+                        <li>Ranked 59 out of 463 teams</li>
+                        <li>Received $100 in Amazon AWS credits in prizes</li>
+                    </ul>
+                    <h6><a href="https://github.com/realdumbhead/unofficial-senior-quotes-website">Unofficial Senior Quotes Website</a></h6>
+                    <ul>
+                        <li>Built and designed a website to submit and view senior quotes </li>
+                        <li>Unofficial version where seniors can put what ever they want in their quotes</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="tab-pane container fade" id="mooc"><br>
+                <h6>Andrew Ng&#39s Machine Learning Course</h6>
+                <ul>
+                    <li>Implemented regressions, neural networks, k-means, PCA, and other machine learning algorithms from scratch in MATLAB </li>
+                </ul>
+                <h6>Deeplearning.ai's Deep Learning Course</h6>
+                <ul>
+                    <li>Implemented neural network, momentum, RMSProp, and ADAM in Python using NumPy.</li>
+                    <li>Learned about applied ML techiques like orthogonalization, single-number eveluation metric, and training on a different data distribution</li>
+                    <li>Currently on course #4, learning about deep learnining in computer vision</li>
+                </ul>
+            </div>
+            <div class="tab-pane container fade" id="contact"><br>
+                <p>You can contact me at my email: <a href="mailto:asdfghjk2013125@gmail.com">asdfghjk2013125@gmail.com</a></p>
+            </div>
+        </div>
+        <footer class="footer">
+            <div class = "container text-center">
+                <br><br>
+                <hr>
+                <div><p>Email: <a href="mailto:asdfghjk2013125@gmail.com">asdfghjk2013125@gmail.com</a></p></div>
+                <br>
+            </div>	
+        </footer>
+    </div>
+</body>
+</html>

@@ -1,0 +1,54 @@
+@font-face { 
+    font-family: Aller; 
+    src: url("fonts/Aller.ttf"); 
+} 
+
+body{ 
+    background-color: rgb(89, 112, 240);
+}
+
+.container-main{
+    background-color: rgb(241, 241, 248);
+    border-radius: 25px;
+    padding:0px;
+    margin-top: 14px;
+    margin-bottom: 14px;
+    width: 92%;
+    max-width: 100%;
+}
+
+
+.header{
+    background-image: url("imgs/train vs cv loss.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; 
+    position: relative;
+    font-family: Aller;
+    border-radius: 25px 25px 0px 0px;
+    margin-bottom: 0px;
+}
+
+.header-text{
+    text-shadow: 0px 0px 10px white, 0px 0px 10px white, 0px 0px 10px white, 0px 0px 10px white;
+
+}
+.nav-tabs .nav-link.active{
+	background-color: rgb(89, 112, 240); 
+}
+
+.fa-kaggle {
+    font-family: "Arial";
+    color: #429bf4;
+    font-size: 1.2em;
+    width:20px; 
+}
+
+.black-links a{
+    color: black;
+} 
+
+.small-image{
+    width: 70%;
+    height: auto;
+}
